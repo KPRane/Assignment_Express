@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    </head>
+    <body>
+
+       
+        <form method="post" action="/submit-data">
+            <div class="container">
+                <div class="card" style=
+                  "padding: 30px;
+                  background:#f9f7f7;
+                  max-width: 800px;
+                  margin: 100px auto;
+                  height: auto;"
+                  >
+                    <form method="POST" action="/submit-data">
+                        <h1 class="text-center display-4">REGISTRATION</h1>
+                        <div class="form-group">
+                            <label>Emp ID:</label>
+                            <input type="text" class="form-control" name="id" placeholder="Enter Id" />
+                        </div>
+                        <div class="form-group">
+                            <label>Name:</label>
+                            <input type="text" class="form-control" name="fname" id="fname" placeholder="Enter name" />
+                        </div>
+                        <div class="form-group">
+                            <label>Age:</label>
+                            <input type="number" class="form-control" id="age" name="age" placeholder="Enter Age" />
+                        </div>
+                        
+                        <div class="form-group">
+                            <label>Salary:</label>
+                            <input type="number" class="form-control" id="sal" name="sal" placeholder="Enter Salary" />
+                        </div>
+                        <div class="text-center">
+                        <button type="submit" class="btn btn-dark">Submit</button>
+                    </div>
+                    </form>
+                </div>
+            </div>
+            
+        </form>
+    </body>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</html>
